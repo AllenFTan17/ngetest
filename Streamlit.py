@@ -23,7 +23,7 @@ def load_model(file_path):
 def main():
     st.title("Model Inference with Streamlit")
     
-    model = load_model('best_clfc(1).pkl')
+    model = load_model('best_clf (1).pkl')
     if model is None:
         return
     
