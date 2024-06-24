@@ -14,7 +14,7 @@ import joblib
 import numpy as np
 
 # Load the machine learning model
-model = joblib.load('best_clf.pkl')
+model = joblib.load('best_clfc(1).pkl')
 
 def main():
     st.title('Machine Learning Model Deployment')
